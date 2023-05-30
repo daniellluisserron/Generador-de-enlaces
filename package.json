@@ -1,13 +1,15 @@
 {
+  "name": "Generador_de_Enlaces",
+  "version": "1.0.0",
+  "description": "generador de enlaces Zara.com",
+  "author": "Daniellser  y Sofiasca",
   "main": "main.js",
-  
   "scripts": {
-  
-  "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-builder --win"
   },
-  
-  "devDependencies": { 
-  "electron": "^24.1.2"
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "electron-builder": "^23.6.0"
   }
-  
-  }
+}
