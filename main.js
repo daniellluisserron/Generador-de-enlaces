@@ -5,10 +5,11 @@ const path = require('path');
 const url = require('url');
 
 function createWindow () {
-const mainWindow = new BrowserWindow({
+let mainWindow = new BrowserWindow({
+ icon: '450_1000.png',
  width: 800,
  height: 600,
-webPreferences: {
+ webPreferences: {
     nodeIntegration: true,
     contextIsolation: false,
     enableRemoteModule: true,
@@ -36,7 +37,7 @@ app.whenReady().then(() => {
 createWindow()
 
 app.on('ready', () => {
-    const mainWindow = new BrowserWindow({
+      mainWindow = new BrowserWindow({
       webPreferences: {
         nodeIntegration: false,
         contextIsolation: true,
@@ -64,3 +65,4 @@ app.on('window-all-closed', function () {
 if (process.platform !== 'darwin') app.quit()
 
 })
+
