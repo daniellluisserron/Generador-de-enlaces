@@ -68,6 +68,7 @@
    {"name": "MARRUECOS", "code": "ma","lenguaje":["ar","fr","en"]},
    {"name": "MEXICO", "code": "mx","lenguaje":["es","en"]},
    {"name": "MONTENEGRO", "code": "me","lenguaje":["sr","en"]},
+   {"name": "MONACO", "code": "mc","lenguaje":["fr","en"]},
    {"name": "NICARAGUA", "code": "ni","lenguaje":["es","en"]},
    {"name": "NORUEGA", "code": "no","lenguaje":["no","en"]},
    {"name": "NUEVA ZELANDA", "code": "nz","lenguaje":["en"]},
