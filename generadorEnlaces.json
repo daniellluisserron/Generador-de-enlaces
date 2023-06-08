@@ -11,6 +11,7 @@
    {"name": "AUSTRALIA", "code": "au","lenguaje":["en"]},
    {"name": "AUSTRIA", "code": "at","lenguaje":["de","en"]},
    {"name": "AZERBAIYAN", "code": "az","lenguaje":["ru","en"]},
+   {"name": "ALEMANIA", "code": "de","lenguaje":["de","en"]},
    {"name": "BAHRAIN", "code": "bh","lenguaje":["ar","en"]},
    {"name": "BELGICA", "code": "be","lenguaje":["en","nl","fr"]},
    {"name": "BOSNIA-HERZEGOV", "code": "ba","lenguaje":["hr","en"]},
