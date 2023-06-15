@@ -11,5 +11,28 @@
   "devDependencies": {
     "electron": "^24.1.2",
     "electron-builder": "^24.4.0"
+  },
+  "build": {
+
+    "appId": "com.example.myapp",
+
+    "mac": {
+
+      "icon": "img/favicon-32x32.png"
+
+    },
+
+    "win": {
+
+      "icon": "img/android-chrome-512x512.png"
+
+    },
+
+    "linux": {
+
+      "icon": "img/favicon-32x32.png"
+
+    }
+
   }
 }

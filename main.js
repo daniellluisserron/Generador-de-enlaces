@@ -6,7 +6,7 @@ const url = require('url');
 
 function createWindow () {
 let mainWindow = new BrowserWindow({
- icon: '450_1000.png',
+ icon: 'logozara.ico',
  width: 800,
  height: 600,
  webPreferences: {
