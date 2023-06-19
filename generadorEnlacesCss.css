@@ -69,6 +69,10 @@ select {
     border: 1px solid #ccc;
 }
 
+select:focus {
+    outline: none; 
+    border-color: #ccc; 
+}
 .btn {
     padding: 0.5rem 1rem;
     margin-top: 1rem;
